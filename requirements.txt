@@ -1,6 +1,6 @@
-yaml
 pytz
 pandas
+pyyaml
 sqlalchemy
 google-auth
 shillelagh[all]
