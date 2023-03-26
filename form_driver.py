@@ -194,8 +194,8 @@ if st.session_state["authentication_status"]:
     with st.form(key='edit_form'):
         #create a function to edit the dataframe
         def edit_dataframe(edit_df):
-            edited_dataframe = edit_df.copy() # Make a copy of the original dataframe
-            # Modify the dataframe here
+            edited_dataframe = edit_df.copy() #make a copy of the original dataframe
+            #modify the dataframe here
             edited_dataframe['konfirmasi_driver'] = edited_dataframe['konfirmasi_driver']
             return edited_dataframe
         edited_df = edit_dataframe(edit_df)
