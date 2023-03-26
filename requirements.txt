@@ -1,0 +1,10 @@
+yaml
+pytz
+pandas
+sqlalchemy
+google-auth
+shillelagh[all]
+protobuf==3.13.0
+streamlit==1.19.0
+streamlit-authenticator
+google-api-python-client
